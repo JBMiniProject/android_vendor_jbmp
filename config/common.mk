@@ -81,9 +81,9 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    DSPManager \
     libcyanogen-dsp \
-    Apollo
+    Apollo \
+    Trebuchet
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
