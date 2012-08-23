@@ -1,7 +1,7 @@
-ifneq ($(TARGET_BOOTANIMATION_NAME),)
+ ifneq ($(TARGET_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
         vendor/jbmp/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
-endif
+ endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
