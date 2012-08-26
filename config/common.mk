@@ -66,6 +66,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Superuser \
     Superuser.apk \
+    Provision \
     su
 
 # Optional CM packages
