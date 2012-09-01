@@ -5,4 +5,4 @@ setprop ro.recver "$RECVERSION"
 
 LR="log -p i -t JBMP"
 
-$LR "Recovery version: `getprop ro.recver`";
+$LR "Recovery version: $RECVERSION";
