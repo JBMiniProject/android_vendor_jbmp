@@ -17,7 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
+    vendor/jbmp/CHANGELOG.mkdn:system/etc/ChangeLog-JBMP.txt
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
