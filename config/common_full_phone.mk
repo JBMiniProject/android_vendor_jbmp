@@ -19,7 +19,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
   Mms
 
- ifneq ($(TARGET_BOOTANIMATION_NAME),)
+ifneq ($(TARGET_BOOTANIMATION_NAME),)
     PRODUCT_COPY_FILES += \
         vendor/jbmp/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
- endif
+endif
