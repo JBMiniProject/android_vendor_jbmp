@@ -1,14 +1,8 @@
 #!/system/bin/sh
 
-if [ -e /system/bin/log ];
-then
-    LOGI="log -p i -t JBMP --"
-    LOGE="log -p e -t JBMP --"
-else
-    LOGI=echo
-    LOGE=echo
-fi
-
 RECVERSION=`strings /sbin/recovery|/system/xbin/grep Recovery | /system/xbin/head -n 1`
 setprop ro.recver "$RECVERSION"
 
+LR="log -p i -t JBMP"
+
+$LR "Recovery version: `getprop ro.recver`";
