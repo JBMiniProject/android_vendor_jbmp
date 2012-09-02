@@ -75,12 +75,13 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     LiveWallpapersPicker
 
-# Custom CM packages
+# Custom packages
 PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     Apollo \
     Trebuchet \
     FileManager \
+    JBMPWallpapers \
     librs_jni
 
 # Extra tools in CM
