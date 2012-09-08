@@ -19,6 +19,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/jbmp/CHANGELOG.mkdn:system/etc/ChangeLog-JBMP.txt
 
+# Bootaudio
+PRODUCT_COPY_FILES += \
+    vendor/jbmp/prebuilt/common/media/boot_audio.mp3:system/media/boot_audio.mp3
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
