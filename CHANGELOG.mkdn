@@ -1,4 +1,68 @@
 JB Mini Project
 ===============
 
-Now nothing in this file :)
+**** Beta 2 ****
+** 2012-09-08 **
+****************
+-Removed Rotation checkbox from acessibility because it's in display settings
+-Recovery version in Settings->About phone
+-Native Apps2SD support
+-Trebuchet launcher
+-Increased FPS (60 fps)
+-DataUsage in settings
+-Custom Carrier Label on Lockscreen
+-I/O scheduler settings in Performance settings
+-Option to control cursor in text fields using volume keys
+-Bluetooth Tethering
+-Usb tethering
+-Fixed menu key in lockscreen
+-JBMini Project Wallpapers
+-Included FileManager (changed style for Jelly Bean)
+-New color icons by stelios97 in Settings app
+-A2SD settings in JBMini Settings
+-Lockscreen text color picker
+-Statusbar clock color picker
+-Screensaver support
+-Working camera
+-Bootaudio
+-Disable bootaudio option in JBMini Settings
+
+**** Beta 1 ****
+** 2012-08-04 **
+****************
+-Latest CM source
+-Build with linaro
+-Deep Sleep working
+-Fully working audio
+-Working Microphone
+-Music Playback works
+-Video Playback works
+-New category for JBMini Settings and Partition info in Settings
+-Categorized JBMini Settings layout
+-Home Button answers call in JBMini Settings
+-Center clock option in JBMini Settings
+-Volume adjust sound enable/disable in JBMini Settings
+
+**** Alpha 2 ****
+** 2012-07-31 ***
+*****************
+-Audio partly working
+-GSM fix
+-Data fix
+-Lights fix
+-Wifi fix
+-Added partition info
+-Color icons in settings
+-JBMini Settings:
+-Back button ends call
+-Disable bootanimation
+-Raised brightness option in JBMini Settings
+-Enable/Disable all option for Global actions in JBMini Settings
+-Faster and Smoother then previous release
+-ext2/3/4 support
+-Launcher2 changed to Xperia S launcher
+
+**** Alpha 1 ****
+** 2012-07-22 ***
+*****************
+-First release
