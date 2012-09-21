@@ -68,7 +68,6 @@ include vendor/cm/config/themes_common.mk
 PRODUCT_PACKAGES += \
     LatinIME \
     Superuser \
-    Superuser.apk \
     Provision \
     su
 
