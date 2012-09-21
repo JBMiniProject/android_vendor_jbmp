@@ -51,8 +51,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/jbmp/proprietary/Term.apk:system/app/Term.apk \
-    vendor/jbmp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-    vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
+    vendor/jbmp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
