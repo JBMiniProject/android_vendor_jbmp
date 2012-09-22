@@ -1,5 +1,6 @@
 # Inherit common CM stuff
 $(call inherit-product, vendor/jbmp/config/common.mk)
+$(call inherit-product, vendor/jbmp/config/common_gapps.mk)
 
 # Bring in all audio files
 include frameworks/base/data/sounds/NewAudio.mk

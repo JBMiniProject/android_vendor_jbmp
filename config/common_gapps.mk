@@ -1,0 +1,71 @@
+ifeq ($(TARGET_INCLUDE_GAPPS),true)
+    PRODUCT_COPY_FILES += \
+        vendor/jbmp/prebuilt/gapps/addon.d/70-gapps.sh:system/addon.d/70-gapps.sh \
+        vendor/jbmp/prebuilt/gapps/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
+        vendor/jbmp/prebuilt/gapps/app/Gmail.apk:system/app/Gmail.apk \
+        vendor/jbmp/prebuilt/gapps/app/GmsCore.apk:system/app/GmsCore.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleEars.apk:system/app/GoogleEars.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
+        vendor/jbmp/prebuilt/gapps/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
+        vendor/jbmp/prebuilt/gapps/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
+        vendor/jbmp/prebuilt/gapps/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
+        vendor/jbmp/prebuilt/gapps/app/MediaUploader.apk:system/app/MediaUploader.apk \
+        vendor/jbmp/prebuilt/gapps/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
+        vendor/jbmp/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+        vendor/jbmp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
+        vendor/jbmp/prebuilt/gapps/app/QuickSearchBox.apk:system/app/QuickSearchBox.apk \
+        vendor/jbmp/prebuilt/gapps/app/SetupWizard.apk:system/app/SetupWizard.apk \
+        vendor/jbmp/prebuilt/gapps/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
+        vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+        vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+        vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+        vendor/jbmp/prebuilt/gapps/etc/permissions/features.xml:system/etc/permissions/features.xml \
+        vendor/jbmp/prebuilt/gapps/etc/g.prop:system/etc/g.prop \
+        vendor/jbmp/prebuilt/gapps/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+        vendor/jbmp/prebuilt/gapps/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+        vendor/jbmp/prebuilt/gapps/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+        vendor/jbmp/prebuilt/gapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+        vendor/jbmp/prebuilt/gapps/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+        vendor/jbmp/prebuilt/gapps/lib/libfrsdk.so:system/lib/libfrsdk.so \
+        vendor/jbmp/prebuilt/gapps/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
+        vendor/jbmp/prebuilt/gapps/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+        vendor/jbmp/prebuilt/gapps/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
+        vendor/jbmp/prebuilt/gapps/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
+        vendor/jbmp/prebuilt/gapps/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
+        vendor/jbmp/prebuilt/gapps/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+        vendor/jbmp/prebuilt/gapps/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/acoustic_model:system/usr/srec/en-US/acoustic_model \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/clg:system/usr/srec/en-US/clg \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/compile_grammar.config:system/usr/srec/en-US/compile_grammar.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/dict:system/usr/srec/en-US/dict \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/dictation.config:system/usr/srec/en-US/dictation.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/embed_phone_nn_model:system/usr/srec/en-US/embed_phone_nn_model \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/embed_phone_nn_state_sym:system/usr/srec/en-US/embed_phone_nn_state_sym \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/endpointer_dictation.config:system/usr/srec/en-US/endpointer_dictation.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/endpointer_voicesearch.config:system/usr/srec/en-US/endpointer_voicesearch.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/ep_acoustic_model:system/usr/srec/en-US/ep_acoustic_model \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/g2p_fst:system/usr/srec/en-US/g2p_fst \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/google_hotword.config:system/usr/srec/en-US/google_hotword.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/google_hotword_clg:system/usr/srec/en-US/google_hotword_clg \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/google_hotword_logistic:system/usr/srec/en-US/google_hotword_logistic \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/grammar.config:system/usr/srec/en-US/grammar.config \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/hmmsyms:system/usr/srec/en-US/hmmsyms \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/hotword_symbols:system/usr/srec/en-US/hotword_symbols \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/lintrans_model:system/usr/srec/en-US/lintrans_model \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/metadata:system/usr/srec/en-US/metadata \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/normalizer:system/usr/srec/en-US/normalizer \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/norm_fst:system/usr/srec/en-US/norm_fst \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/offensive_word_normalizer:system/usr/srec/en-US/offensive_word_normalizer \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/phonelist:system/usr/srec/en-US/phonelist \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/rescoring_lm:system/usr/srec/en-US/rescoring_lm \
+        vendor/jbmp/prebuilt/gapps/usr/srec/en-US/symbols:system/usr/srec/en-US/symbols
+else
+    PRODUCT_PACKAGES += QuickSearchBox
+endif
