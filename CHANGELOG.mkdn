@@ -1,6 +1,34 @@
 JB Mini Project
 ===============
 
+**** ?????? ****
+** 2012-10-?? **
+****************
+-Updated to 4.1.2 source
+-Google apps Lite included (Only google services, GoogleNow, Talk)
+-Lockscreen clock alignment in portrait mode only because on landscape the unlock widget on the right
+-Added stopwatch to DeskClock
+-Added countdown to DeskClock
+-Added math quiz to alarm clock
+-Changed alarm toggle checkbox to switch
+-Added OTA Update Center
+-FM Radio working
+-Small fixes in JBMini Settings
+-Add lockscreen weather and lockscreen calendar to lockscreen text color change
+-CircleBattery icon in StatusBar
+-Fixed X10 Mini Pro keyboard lights
+-Fixed Auto Brightness
+-Added Raised Brightness to Brightness PowerWidget
+-Lockscreen branding (watermark)
+-ScreenOff Animation working
+-Slider Lockscreen from Gingerbread
+-Rotary Lockscreen from Gingerbread
+-JBMini Settings:
+-Statusbar Clock weekday
+-Battery Bar
+-Disable alarm icon
+-Disable bugmailer
+
 **** Beta 2 ****
 ** 2012-09-08 **
 ****************
