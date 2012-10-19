@@ -84,7 +84,8 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     FileManager \
     JBMPWallpapers \
-    librs_jni
+    librs_jni \
+    LegacyCamera
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
