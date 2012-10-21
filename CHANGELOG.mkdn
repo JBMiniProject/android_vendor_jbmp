@@ -3,7 +3,7 @@ JB Mini Project
 
 RC1
 ==============
-2012-10-??
+2012-10-22
 --------------
 -Updated to 4.1.2 source
 -Google apps Lite included (Only google services, GoogleNow, Talk)
