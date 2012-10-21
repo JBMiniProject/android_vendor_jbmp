@@ -1,9 +1,10 @@
 JB Mini Project
 ===============
 
-***** RC1 ******
-** 2012-10-?? **
-****************
+RC1
+==============
+2012-10-??
+--------------
 -Updated to 4.1.2 source
 -Google apps Lite included (Only google services, GoogleNow, Talk)
 -Lockscreen clock alignment in portrait mode only because on landscape the unlock widget on the right
@@ -29,9 +30,11 @@ JB Mini Project
 -Disable alarm icon
 -Disable bugmailer
 
-**** Beta 2 ****
-** 2012-09-08 **
-****************
+
+Beta 2
+==========
+2012-09-08
+-----------
 -Removed Rotation checkbox from acessibility because it's in display settings
 -Recovery version in Settings->About phone
 -Native Apps2SD support
@@ -55,9 +58,11 @@ JB Mini Project
 -Bootaudio
 -Disable bootaudio option in JBMini Settings
 
-**** Beta 1 ****
-** 2012-08-04 **
-****************
+
+Beta 1
+==========
+2012-08-04
+-----------
 -Latest CM source
 -Build with linaro
 -Deep Sleep working
@@ -71,9 +76,11 @@ JB Mini Project
 -Center clock option in JBMini Settings
 -Volume adjust sound enable/disable in JBMini Settings
 
-**** Alpha 2 ****
-** 2012-07-31 ***
-*****************
+
+Alpha 2
+=========
+2012-07-31
+-----------
 -Audio partly working
 -GSM fix
 -Data fix
@@ -90,7 +97,9 @@ JB Mini Project
 -ext2/3/4 support
 -Launcher2 changed to Xperia S launcher
 
-**** Alpha 1 ****
-** 2012-07-22 ***
-*****************
+
+Alpha 1
+=========
+2012-07-22
+-----------
 -First release
