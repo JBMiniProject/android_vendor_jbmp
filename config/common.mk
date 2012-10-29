@@ -81,6 +81,7 @@ PRODUCT_PACKAGES += \
 # Custom packages
 PRODUCT_PACKAGES += \
     libcyanogen-dsp \
+    DSPManager \
     Apollo \
     FileManager \
     JBMPWallpapers \
