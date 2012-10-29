@@ -76,7 +76,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     VoiceDialer \
     SoundRecorder \
-    LiveWallpapersPicker
+    LiveWallpapersPicker \
+    LiveWallpapers \
+    Galaxy4 \
+    PhaseBeam \
 
 # Custom packages
 PRODUCT_PACKAGES += \

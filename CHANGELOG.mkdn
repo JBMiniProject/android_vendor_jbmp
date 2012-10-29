@@ -1,6 +1,16 @@
 JB Mini Project
 ===============
 
+RC1b
+==============
+2012-10-29
+--------------
+-Fixed Freezing
+-Fixed optimizing apps issue
+-Trebuchet changed with Nova
+-Added DSP Manager
+-Added default live wallpapers
+
 RC1
 ==============
 2012-10-22
