@@ -9,7 +9,9 @@ RC1b
 -Fixed optimizing apps issue
 -Trebuchet changed with Nova
 -Added DSP Manager
--Added default live wallpapers
+-Added SEMC default keyboard
+-Change Holo gradient to solid one
+-Added default Live Wallpapers
 
 RC1
 ==============
