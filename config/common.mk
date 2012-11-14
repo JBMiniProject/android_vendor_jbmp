@@ -86,7 +86,7 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     DSPManager \
     Apollo \
-    FileManager \
+    CMFileManager \
     JBMPWallpapers \
     librs_jni \
     LegacyCamera
