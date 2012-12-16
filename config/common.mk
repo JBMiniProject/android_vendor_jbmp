@@ -88,8 +88,7 @@ PRODUCT_PACKAGES += \
     Apollo \
     CMFileManager \
     JBMPWallpapers \
-    librs_jni \
-    LegacyCamera
+    librs_jni
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
