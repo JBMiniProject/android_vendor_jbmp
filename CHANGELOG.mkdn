@@ -1,6 +1,19 @@
 JB Mini Project
 ===============
 
+Release 1
+==============
+2012-12-16
+--------------
+-Fixed headset routing issue
+-More improved audio volume
+-Loudspeaker microphone incall issue fixed
+-Camcorder fixed
+-Video Playing fixed
+-Youtube HQ fixed
+-Fixed HW encoder/decoder
+
+
 RC1b
 ==============
 2012-10-29
@@ -12,6 +25,7 @@ RC1b
 -Added SEMC default keyboard
 -Change Holo gradient to solid one
 -Added default Live Wallpapers
+
 
 RC1
 ==============
