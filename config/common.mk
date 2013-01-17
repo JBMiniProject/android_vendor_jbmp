@@ -83,9 +83,6 @@ PRODUCT_PACKAGES += \
 
 # Custom packages
 PRODUCT_PACKAGES += \
-    libcyanogen-dsp \
-    DSPManager \
-    Apollo \
     CMFileManager \
     JBMPWallpapers \
     librs_jni
@@ -102,6 +99,15 @@ PRODUCT_PACKAGES += \
     htop \
     powertop \
     lsof
+
+ifneq ($(TARGET_USES_SRS),true)
+PRODUCT_PACKAGES += \
+    libbundlewrapper \
+    libcyanogen-dsp \
+    DSPManager \
+    Apollo \
+    frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf
+endif
 
 PRODUCT_BUILDTYPE := Release
 
