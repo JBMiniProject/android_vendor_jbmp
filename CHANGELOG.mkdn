@@ -1,6 +1,32 @@
 JB Mini Project
 ===============
 
+Release 2
+==============
+2013-02-09
+--------------
+-Improved CameraHAL
+-Screenshot options (Delay setting and sound toggler)
+-Transparent Statusbar
+-NavBar enabler from JBMini Settings
+-Reworked back button ends call function
+-Removed Home button answers call function
+-Added Menu button answers call
+-Change mounts for JB (now usable with all Jelly Bean kernel)
+-Sense 4 style Recent apps
+-Ram usage bar in Recent apps
+-Fixed flashing screen while screen goes black
+-Fixed Barcode Scanner
+-Reworked Partition Info (Full detailed -> Used, Free, Total, Used in Percentage)
+-Ringtone Delay Fix
+-JBMini Theme
+-New Xperia Launcher
+-More informative Battery stats (more apps and x,x% usage instead of x%)
+-SMS app Limit changed to editable int value instead of list... (you can change every value what you want)
+-Backported Call statistics to Contacts from CM10.1
+-Backported Flip to mute/dismiss call from CM10.1
+
+
 Release 1
 ==============
 2012-12-16
