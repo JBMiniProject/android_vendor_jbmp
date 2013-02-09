@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh
 
 PRODUCT_COPY_FILES +=  \
-    vendor/jbmp/prebuilt/common/app/Nova.apk:system/app/Nova.apk \
+    vendor/jbmp/prebuilt/common/app/Xperia_Launcher.apk:system/app/Xperia_Launcher.apk \
     vendor/jbmp/proprietary/Term.apk:system/app/Term.apk \
     vendor/jbmp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
