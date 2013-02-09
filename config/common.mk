@@ -19,6 +19,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/jbmp/CHANGELOG.mkdn:system/etc/ChangeLog-JBMP.txt
 
+# JBMini Theme
+PRODUCT_COPY_FILES += \
+    vendor/jbmp/prebuilt/common/app/JBMiniTheme.apk:system/app/JBMiniTheme.apk
+
 # Bootaudio
 PRODUCT_COPY_FILES += \
     vendor/jbmp/prebuilt/common/media/boot_audio.mp3:system/media/boot_audio.mp3
