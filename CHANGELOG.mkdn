@@ -1,6 +1,45 @@
 JB Mini Project
 ===============
 
+Release 3
+==============
+2013-03-??
+--------------
+Direct Call (Call from SMS reading and Dialer with pick up)
+Fix PIN Lockscreen layout issue
+Fix Lockscreen Media controls layout issue
+Increase media volume levels (now 30 step instead of 15)
+Add option to toggle unlock on dismissal of alarm
+Fixed reboot to recovery option
+Optimized flip to mute/dismiss call
+Reworked JBMini Settings (not categorized but segmented) -> Screenshot: http://i.imgur.com/BurzqgK.png
+Fixed /sdcard and /sd-ext statistics in Partition Info
+Fixed Navigation bar size
+Lockscreen branding (watermark) uses Lockscreen Text color
+Fixed in-call volume
+Fixed system and media volume
+Working only with 2.6.32.60.-nAa-jb-05 kernel
+Added expanded desktop toggle
+Fixed FM-Radio crash
+Fixed lockscreen carrier position on MDPI
+Fixed Lockscreen rotation bug when using slider or rotary lockscreen style
+Show more info in boot dialog (app name instead of Starting app x / y)
+Optimized Direct Call code
+Fixed Time range in Call statistics
+Fixed bluetooth
+FM-Radio turn on the bluetooth before start fm
+New bootanimation
+Removed SEMC default keyboard
+Show connected Wifi name on notification area
+Some little improvement and fix backport from CM10.1 (starting window memory leak, thumbnail handling)
+SWAP settings from MiniCM
+Undervolt support from MiniCM
+Swap volume buttons when the screen is rotated by 90 or 180 degrees
+Use MTP (Media Transfer Protocol) instead of UMS (USB Mass Storage) at default
+Backport "Option to mark user-rejected calls as missed" from CM10.1
+Backport "Make going to call log after call optional" from CM10.1
+
+
 Release 2
 ==============
 2013-02-09
