@@ -24,3 +24,5 @@ add_lunch_combo jbmp_robyn-eng
 add_lunch_combo jbmp_robyn-userdebug
 add_lunch_combo jbmp_shakira-eng
 add_lunch_combo jbmp_shakira-userdebug
+add_lunch_combo jbmp_pico-eng
+add_lunch_combo jbmp_pico-userdebug
