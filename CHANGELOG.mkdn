@@ -1,9 +1,16 @@
 JB Mini Project
 ===============
 
+Release 3b
+==============
+2013-03-18
+--------------
+Fixed bootloop
+
+
 Release 3
 ==============
-2013-03-??
+2013-03-17
 --------------
 Direct Call (Call from SMS reading and Dialer with pick up)
 Fix PIN Lockscreen layout issue
