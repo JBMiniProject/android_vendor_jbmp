@@ -6,10 +6,8 @@ ifeq ($(TARGET_INCLUDE_GAPPS),true)
         vendor/jbmp/prebuilt/gapps/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
         vendor/jbmp/prebuilt/gapps/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
         vendor/jbmp/prebuilt/gapps/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
-        vendor/jbmp/prebuilt/gapps/app/GoogleEars.apk:system/app/GoogleEars.apk \
         vendor/jbmp/prebuilt/gapps/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
         vendor/jbmp/prebuilt/gapps/app/GoogleLoginService.apk:system/app/GoogleLoginService.apk \
-        vendor/jbmp/prebuilt/gapps/app/GoogleNowVoiceSearch.apk:system/app/GoogleNowVoiceSearch.apk \
         vendor/jbmp/prebuilt/gapps/app/GooglePartnerSetup.apk:system/app/GooglePartnerSetup.apk \
         vendor/jbmp/prebuilt/gapps/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
         vendor/jbmp/prebuilt/gapps/app/MediaUploader.apk:system/app/MediaUploader.apk \
@@ -17,8 +15,6 @@ ifeq ($(TARGET_INCLUDE_GAPPS),true)
         vendor/jbmp/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
         vendor/jbmp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
         vendor/jbmp/prebuilt/gapps/app/SetupWizard.apk:system/app/SetupWizard.apk \
-        vendor/jbmp/prebuilt/gapps/app/Talk.apk:system/app/Talk.apk \
-        vendor/jbmp/prebuilt/gapps/app/Velvet.apk:system/app/Velvet.apk \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
@@ -27,14 +23,12 @@ ifeq ($(TARGET_INCLUDE_GAPPS),true)
         vendor/jbmp/prebuilt/gapps/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
         vendor/jbmp/prebuilt/gapps/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
         vendor/jbmp/prebuilt/gapps/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-        vendor/jbmp/prebuilt/gapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
         vendor/jbmp/prebuilt/gapps/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
         vendor/jbmp/prebuilt/gapps/lib/libfrsdk.so:system/lib/libfrsdk.so \
         vendor/jbmp/prebuilt/gapps/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
         vendor/jbmp/prebuilt/gapps/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
         vendor/jbmp/prebuilt/gapps/lib/libpicowrapper.so:system/lib/libpicowrapper.so \
         vendor/jbmp/prebuilt/gapps/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-        vendor/jbmp/prebuilt/gapps/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
         vendor/jbmp/prebuilt/gapps/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so
 else
     PRODUCT_PACKAGES += QuickSearchBox
