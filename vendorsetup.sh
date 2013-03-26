@@ -26,3 +26,4 @@ add_lunch_combo jbmp_shakira-eng
 add_lunch_combo jbmp_shakira-userdebug
 add_lunch_combo jbmp_pico-eng
 add_lunch_combo jbmp_pico-userdebug
+add_lunch_combo jbmp_gio-userdebug
