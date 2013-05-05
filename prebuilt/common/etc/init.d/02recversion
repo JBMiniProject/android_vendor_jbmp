@@ -1,8 +1,0 @@
-#!/system/bin/sh
-
-RECVERSION=`strings /sbin/recovery|/system/xbin/grep Recovery | /system/xbin/head -n 1`
-setprop ro.recver "$RECVERSION"
-
-LR="log -p i -t JBMP"
-
-$LR "Recovery version: $RECVERSION";
