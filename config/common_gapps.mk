@@ -13,8 +13,8 @@ ifeq ($(TARGET_INCLUDE_GAPPS),true)
         vendor/jbmp/prebuilt/gapps/app/MediaUploader.apk:system/app/MediaUploader.apk \
         vendor/jbmp/prebuilt/gapps/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
         vendor/jbmp/prebuilt/gapps/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
-        vendor/jbmp/prebuilt/gapps/app/Phonesky.apk:system/app/Phonesky.apk \
         vendor/jbmp/prebuilt/gapps/app/SetupWizard.apk:system/app/SetupWizard.apk \
+        vendor/jbmp/prebuilt/gapps/app/Vending.apk:system/app/Vending.apk \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
         vendor/jbmp/prebuilt/gapps/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
