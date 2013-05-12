@@ -1,6 +1,59 @@
 JB Mini Project
 ===============
 
+Release 4
+==============
+2013.05.12
+--------------
+Built with Linaro toolchain 4.8
+Backported "LegacyCamer: Burst mode (up to 20 shots)" from newer Camera app
+Backported "LegacyCamer: ISO Support" from newer Camera app
+Google Apps updated to latest (2012-10-11)
+Updated PlayStore to 4.0.27
+Updated the launcher to Xperia Z launcher
+Added Xperia S style lockscreen
+Added Samsung Galaxy SIII style lockscreen (not support weather and calendar widget)
+Added HTC Sense 3.0 style lockscreen (not support weather and calendar widget)
+Added Acer CloudMobile style lockscreen (not support weather and calendar widget)
+Added Panasonic Eluga style lockscreen
+Added BlackBerry10 style lockscreen
+Added CM Weather and CM Calendar panel to Slider, Rotary and Xperia S lockscreen
+Changed haptic feedback duration on Rotary and Jelly Bean lockscreen (30ms for touch, 40ms for event) like on Slider
+Switches in JBMini settings instead of checkboxes
+Reworked ColorPicker dialogs in JBMini Settings
+JBMini Settings: Recent apps (Sense 4.0 style recents is optional, RAM Bar is optional)
+JBMini Settings: Camera shutter sound toggle
+JBMini Settings: Natural motion answer call
+JB Mini Project about page to JBMini settings
+Settings: Days in uptime
+Backported "Forwardported Blacklist from CM7.1" from CM10.1
+Backport "Phone: Blacklist unknown numbers (Numbers what not in Contacts list)" from CM10.1
+Backport "Allow notification expansion if multiple calls were missed or blacklisted" from CM10.1
+Backported "SMS Blacklist" from CM10.1
+Backport "MMS: Add the ability to select recipients from a checkbox list" from CM10.1
+Backport "MMS: Update template activity to Google UI guidelines" from CM10.1
+Backport "MMS: Breathing SMS notification" from AOKP JB-MR1
+Backport "Add feature for delay send SMS, user can cancel send SMS in special duration by click the sending SMS" from CM10.1
+Breathing Missed call notification (idea from AOKP's Breathing SMS notification)
+MMS: Add Signature
+MMS: Hide Avatar
+Remove "Option to mark user-rejected calls as missed"
+Backport "List rejected calls separately" from AOKP JB-MR1
+Built in two-way call recorder to Phone app
+Backport "Power connect/disconnect notification support" from CM10.1
+DeskClock: Add digital clock widget
+JBMini Project Dark themed SMS app
+JBMini Project Dark themed Contacts app
+JBMini Project Dark themed Calendar app
+Backported some framework related fix from from CM10.1
+Some fix from CM10.1: Fix call grouping (Contacts), Enhance performance by using ViewHolder (MMS), Removed unused IExtendedNetworkService support (Phone)
+Phone and SMS apps in memory all the time for faster startup
+Rework thumbnail handling
+Reorder Recent apps a little (RAM Bar at Bottom, Kill all button at top of right corner)
+Reworked RAM Bar in Recent apps
+Removed lockscreen rotation support
+
+
 Release 3b
 ==============
 2013-03-18
