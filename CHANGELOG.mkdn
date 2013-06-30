@@ -1,6 +1,27 @@
 JB Mini Project
 ===============
 
+Release 5
+==============
+2013.06.30
+--------------
+Backport QuickSettings (TileView) from CM10.1
+Recent Apps style change not needed reboot
+Backported new Superuser from CM10.1
+JBMini Settings: CPU Time in States
+All lockscreen support Weather and Calendar events
+New (colorfull) weather icons
+Calculator features from CM10.1
+Backport "Show GPS status indicator on preview when 'Store location' is on" from CM10.1 camera app
+Tabbed settings (like on Samsung Galaxy S4)
+JBMini Theme updated (more looks like Samsung Galaxy S4)
+Removed settings button from Expanded status bar like on Android 4.2.2
+Reverted "Phone and SMS apps in memory all the time"
+Dialer looks like Samsung Galaxy S4
+Backport "Make it possible to hangup and dialback from IncallScreen" from CM10.1
+USB Mass Storage added back
+PlayStore updated to latest (4.1.10)
+
 Release 4
 ==============
 2013.05.12
